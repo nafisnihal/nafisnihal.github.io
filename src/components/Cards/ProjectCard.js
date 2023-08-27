@@ -39,8 +39,7 @@ const ProjectCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, liveLink, sourceLink } =
-    item;
+  const { title, description, tags, image, liveLink, sourceLink } = item;
 
   return (
     <motion.div
@@ -54,7 +53,6 @@ const ProjectCard = ({ item }) => {
     >
       <ImgContainer>
         <Picture>
-          <source srcSet={imageWebp} type="image/webp" />
           <PictureImg src={image} alt={title} />
         </Picture>
         {/* <Button
