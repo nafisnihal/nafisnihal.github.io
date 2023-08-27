@@ -1,6 +1,8 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
-import { AiOutlineTool } from "react-icons/ai";
+import { HiOutlineCode } from "react-icons/hi";
+import { VscTools } from "react-icons/vsc";
+import { FiFigma } from "react-icons/fi";
+import { FaReact, FaCode, FaFigma, FaTools } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -25,7 +27,7 @@ const Technologies = () => (
     <List>
       <ListItem>
         <picture>
-          <DiReact size="6rem" />
+          <FaCode size="6rem" />
         </picture>
         <ListContainer>
           <ListTitle>Languages</ListTitle>
@@ -36,7 +38,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiFirebase size="6rem" />
+          <FaReact size="6rem" />
         </picture>
         <ListContainer>
           <ListTitle>Frameworks</ListTitle>
@@ -48,7 +50,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="6rem" />
+          <FaFigma size="6rem" />
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
@@ -60,7 +62,7 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <AiOutlineTool size="5.5rem" />
+          <FaTools size="5.5rem" />
         </picture>
         <ListContainer>
           <ListTitle>Tools</ListTitle>
