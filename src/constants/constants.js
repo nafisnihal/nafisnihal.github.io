@@ -3,8 +3,8 @@ export const projects = [
     title: "EdStructure",
     description:
       "It is an Interactive Institution Information and Management System (IIIMS) based SAAS developer for educational institutions. It has two products which are web-based applications.",
-    image: "images/Projects/EdStructure.png",
-    imageWebp: "images/Projects/EdStructure.webp",
+    image: "images/Projects/edstructure.png",
+    imageWebp: "images/Projects/edstructure.webp",
     tags: ["React", "React Query", "SCSS", "Bootstrap", "Rest API"],
     liveLink: "https://edstructure.com/",
     id: 1,
