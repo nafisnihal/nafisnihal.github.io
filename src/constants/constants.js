@@ -3,7 +3,7 @@ export const projects = [
     title: "EdStructure",
     description:
       "It is an Interactive Institution Information and Management System (IIIMS) based SAAS developer for educational institutions. It has two products which are web-based applications.",
-    image: "images/projects/EdStructure.jpg",
+    image: "images/projects/EdStructure.png",
     imageWebp: "images/projects/EdStructure.webp",
     tags: ["React", "React Query", "SCSS", "Bootstrap", "Rest API"],
     liveLink: "https://edstructure.com/",
@@ -15,7 +15,7 @@ export const projects = [
     title: "Literate",
     description:
       "Literate is Learning Management System (LMS) for evereyone. Getting Data from Rest API.",
-    image: "images/projects/literate.jpg",
+    image: "images/projects/literate.png",
     imageWebp: "images/projects/literate.webp",
     tags: ["React", "React Bootstrap", "Rest API", "Bootstrap"],
     sourceLink: "https://github.com/nafisnihal/literate-learning-app",
@@ -28,7 +28,7 @@ export const projects = [
     title: "Unique Regency",
     description:
       "Reactjs web app for hotel booking with various reservation features. Collaborated with team at my current company.",
-    image: "images/projects/unique-regency.jpg",
+    image: "images/projects/unique-regency.png",
     imageWebp: "images/projects/unique-regency.webp",
     tags: ["React", "Material-UI", "Rest API", "Swiper"],
     liveLink: "https://uniqueregencybd.com/",
@@ -40,7 +40,7 @@ export const projects = [
     title: "Café",
     description:
       "Reactjs website for a café. It has various features like menu, reservation, contact, etc.",
-    image: "images/projects/cafe.jpg",
+    image: "images/projects/cafe.png",
     imageWebp: "images/projects/cafe.webp",
     tags: ["React", "Material-UI"],
     sourceLink: "https://github.com/nafisnihal/cafe",
@@ -53,7 +53,7 @@ export const projects = [
     title: "Course Planner",
     description:
       "Responsive React.js App using vanilla CSS and browser local storage.",
-    image: "images/projects/course-planner.jpg",
+    image: "images/projects/course-planner.png",
     imageWebp: "images/projects/course-planner.webp",
     tags: ["React", "Vanilla CSS", "Local Storage"],
     sourceLink: "https://github.com/nafisnihal/react-course-planner",
@@ -66,7 +66,7 @@ export const projects = [
     title: "Corbel",
     description:
       "Dashboard for a Mobile Application. The system was built to serve farmers with their needed information and services about medicines and crop disease.",
-    image: "images/projects/corbel.jpg",
+    image: "images/projects/corbel.png",
     imageWebp: "images/projects/corbel.webp",
     tags: ["React", "Material-UI", "Rest API", "React Query"],
     sourceLink: "https://github.com/nafisnihal/react-course-planner",
