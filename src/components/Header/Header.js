@@ -11,7 +11,7 @@ const Header = () => {
     <HeaderContainer>
       <Div1>
         <Link href="/">
-          <a style={{ display: "flex", alignItems: "center" }}>@nafisnihal</a>
+          <a style={{ display: "flex", alignItems: "center" }}>NN</a>
         </Link>
       </Div1>
       <Div2>
