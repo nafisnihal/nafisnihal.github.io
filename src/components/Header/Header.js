@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import SocialMedia from "../SocialMedia/SocialMedia.component";
 import { HeaderContainer, Div1, Div2, Div3, NavLink } from "./HeaderStyles";
+import Image from "next/image";
 
 const Header = () => {
   const { route } = useRouter();
@@ -11,7 +12,9 @@ const Header = () => {
     <HeaderContainer>
       <Div1>
         <Link href="/">
-          <a style={{ display: "flex", alignItems: "center" }}>NN</a>
+          <a style={{ display: "flex", alignItems: "center" }}>
+            <Image src="/logo.png" alt="logo" width={50} height={50} />
+          </a>
         </Link>
       </Div1>
       <Div2>
