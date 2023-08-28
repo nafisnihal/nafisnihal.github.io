@@ -38,7 +38,7 @@ const AllProjects = () => {
     <Layout>
       <Section nopadding id="projects">
         <SectionDivider divider style={{ marginBottom: 0 }} />
-        <PageTitle>All My Relevant Projects</PageTitle>
+        <PageTitle>All Projects</PageTitle>
         <ProjectsFilter filter={handleFilter} filterBy={filterBy} />
         <AnimateSharedLayout>
           <GridContainer layout>

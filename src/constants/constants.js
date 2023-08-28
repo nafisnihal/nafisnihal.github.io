@@ -46,7 +46,7 @@ export const projects = [
     sourceLink: "https://github.com/nafisnihal/cafe",
     liveLink: "https://coffee-cafe-nn.vercel.app/",
     id: 4,
-    order: 4,
+    order: 5,
     mainType: "react",
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     sourceLink: "https://github.com/nafisnihal/react-course-planner",
     liveLink: "https://course-planner-nn.netlify.app/",
     id: 5,
-    order: 5,
+    order: 6,
     mainType: "react",
   },
   {
@@ -69,10 +69,8 @@ export const projects = [
     image: "images/Projects/corbel.png",
     imageWebp: "images/Projects/corbel.webp",
     tags: ["React", "Material-UI", "Rest API", "React Query"],
-    sourceLink: "https://github.com/nafisnihal/react-course-planner",
-    liveLink: "https://course-planner-nn.netlify.app/",
-    id: 5,
-    order: 5,
+    id: 6,
+    order: 4,
     mainType: "react",
   },
 ];

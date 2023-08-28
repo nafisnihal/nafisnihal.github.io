@@ -14,14 +14,14 @@ const Hero = () => (
       <LeftSection>
         <SectionTitle main center>
           Hello! <br />
-          It's Nafis Nihal
+          I'm Nafis Nihal
         </SectionTitle>
         <SectionText style={{ paddingBottom: "30px" }}>
           A frontend developer based in Dhaka who loves to build things for the
           web.
         </SectionText>
         <HeroButton
-          href="https://drive.google.com/file/d/1oq6u-Dtd7zCZ798ZEmeKuptlI6049wDh/view?usp=sharing"
+          href="https://drive.google.com/file/d/1-3io7JU2_phNEAEexFvmsRK9eTi_IDWG/view?usp=sharing"
           className="link-to"
           title="Download Resume"
           target="_blank"

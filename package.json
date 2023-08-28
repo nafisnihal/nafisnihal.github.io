@@ -16,6 +16,7 @@
     "react-icons": "^4.7.1",
     "react-image-gallery": "^1.2.11",
     "react-modal": "^3.16.1",
+    "say-hello-greetings": "^1.0.1",
     "styled-components": "^5.3.6",
     "styled-normalize": "^8.0.7"
   },

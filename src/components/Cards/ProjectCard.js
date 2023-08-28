@@ -99,6 +99,11 @@ const ProjectCard = ({ item }) => {
             <LinkText>Live</LinkText>
           </Links>
         )}
+        {Boolean(!liveLink && !sourceLink) && (
+          <Links>
+            <LinkText>Confidential</LinkText>
+          </Links>
+        )}
       </LinkContainer>
     </motion.div>
   );
