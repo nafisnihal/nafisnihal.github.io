@@ -5,7 +5,6 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
 import { HeroButton, LeftSection } from "./HeroStyles";
 
 const Hero = () => (
@@ -21,7 +20,7 @@ const Hero = () => (
           web.
         </SectionText>
         <HeroButton
-          href="https://drive.google.com/file/d/1-3io7JU2_phNEAEexFvmsRK9eTi_IDWG/view?usp=sharing"
+          href="http://tinyurl.com/nafisnihalresume"
           className="link-to"
           title="Download Resume"
           target="_blank"

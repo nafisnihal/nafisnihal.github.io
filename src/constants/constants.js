@@ -12,14 +12,13 @@ export const projects = [
     mainType: "react",
   },
   {
-    title: "Literate",
+    title: "Borgo",
     description:
-      "Literate is Learning Management System (LMS) for evereyone. Getting Data from Rest API.",
-    image: "images/Projects/literate.png",
-    imageWebp: "images/Projects/literate.webp",
-    tags: ["React", "React Bootstrap", "Rest API", "Bootstrap"],
-    sourceLink: "https://github.com/nafisnihal/literate-learning-app",
-    liveLink: "https://literate-d3e2f.web.app/",
+      "Borgo is an Interactive Institution Information and Management System (IIIMS) web application for urban areas. A product of EdStructure. I am working on it from scratch.",
+    image: "images/Projects/borgo.jpg",
+    imageWebp: "images/Projects/borgo.webp",
+    tags: ["TypeScript", "React", "React Query", "Ant Design", "TailwindCSS"],
+    liveLink: "https://edstructure.com/borgo",
     id: 2,
     order: 2,
     mainType: "react",
@@ -27,7 +26,7 @@ export const projects = [
   {
     title: "Unique Regency",
     description:
-      "Reactjs web app for hotel booking with various reservation features. Collaborated with team at my current company.",
+      "Unique Regency is a web app for hotel booking with various reservation features. Collaborated with team at my current company.",
     image: "images/Projects/unique-regency.png",
     imageWebp: "images/Projects/unique-regency.webp",
     tags: ["React", "Material-UI", "Rest API", "Swiper"],
@@ -37,6 +36,32 @@ export const projects = [
     mainType: "react",
   },
   {
+    title: "Britto",
+    description:
+      "It is an Interactive Institution Information and Management System (IIIMS) web application for rural areas.  A product of EdStructure. I have started working on the front-end part on developing stage.",
+    image: "images/Projects/britto.png",
+    imageWebp: "images/Projects/britto.webp",
+    tags: ["React", "React Query", "SCSS", "Bootstrap", "Rest API"],
+    liveLink: "https://edstructure.com/britto",
+    id: 4,
+    order: 4,
+    mainType: "react",
+  },
+  {
+    title: "Literate",
+    description:
+      "Literate is Learning Management System (LMS) for evereyone. Getting Data from Rest API.",
+    image: "images/Projects/literate.png",
+    imageWebp: "images/Projects/literate.webp",
+    tags: ["React", "React Bootstrap", "Rest API", "Bootstrap"],
+    sourceLink: "https://github.com/nafisnihal/literate-learning-app",
+    liveLink: "https://literate-d3e2f.web.app/",
+    id: 6,
+    order: 6,
+    mainType: "react",
+  },
+
+  {
     title: "Café",
     description:
       "Reactjs website for a café. It has various features like menu, reservation, contact, etc.",
@@ -45,8 +70,8 @@ export const projects = [
     tags: ["React", "Material-UI"],
     sourceLink: "https://github.com/nafisnihal/cafe",
     liveLink: "https://coffee-cafe-nn.vercel.app/",
-    id: 4,
-    order: 5,
+    id: 7,
+    order: 7,
     mainType: "react",
   },
   {
@@ -58,8 +83,8 @@ export const projects = [
     tags: ["React", "Vanilla CSS", "Local Storage"],
     sourceLink: "https://github.com/nafisnihal/react-course-planner",
     liveLink: "https://course-planner-nn.netlify.app/",
-    id: 5,
-    order: 6,
+    id: 8,
+    order: 8,
     mainType: "react",
   },
   {
@@ -69,8 +94,8 @@ export const projects = [
     image: "images/Projects/corbel.png",
     imageWebp: "images/Projects/corbel.webp",
     tags: ["React", "Material-UI", "Rest API", "React Query"],
-    id: 6,
-    order: 4,
+    id: 5,
+    order: 5,
     mainType: "react",
   },
 ];
