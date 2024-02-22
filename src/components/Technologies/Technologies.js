@@ -1,8 +1,10 @@
 import React from "react";
-import { HiOutlineCode } from "react-icons/hi";
-import { VscTools } from "react-icons/vsc";
-import { FiFigma } from "react-icons/fi";
-import { FaReact, FaCode, FaFigma, FaTools } from "react-icons/fa";
+import { FaCode, FaReact, FaTools } from "react-icons/fa";
+import {
+  frameworkSkills,
+  languageSkills,
+  toolsSkills,
+} from "../../constants/constants";
 import {
   Section,
   SectionDivider,
@@ -10,6 +12,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import {
+  IndividualItem,
   List,
   ListContainer,
   ListItem,
@@ -32,7 +35,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
-            JavaScript, ES6, Node.js, HTML, CSS, SCSS/SASS, Python, C#
+            {languageSkills.map((skill) => (
+              <IndividualItem key={skill.name}>{skill.name}</IndividualItem>
+            ))}
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,22 +47,13 @@ const Technologies = () => (
         </picture>
         <ListContainer>
           <ListTitle>Frameworks</ListTitle>
-          <ListParagraph>
-            React, Next.js, Redux, RESTful APIs, Material-UI, Bootstrap,
-            TailwindCSS, Framer.
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <FaFigma size="6rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            Figma, Photoshop.
-          </ListParagraph>
+          {
+            <ListParagraph>
+              {frameworkSkills.map((skill) => (
+                <IndividualItem key={skill.name}>{skill.name}</IndividualItem>
+              ))}
+            </ListParagraph>
+          }
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -67,8 +63,9 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Git, Postman, VS Code, Visual Studio.
+            {toolsSkills.map((skill) => (
+              <IndividualItem key={skill.name}>{skill.name}</IndividualItem>
+            ))}
           </ListParagraph>
         </ListContainer>
       </ListItem>

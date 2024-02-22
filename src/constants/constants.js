@@ -3,7 +3,7 @@ export const projects = [
     title: "EdStructure",
     description:
       "It is an Interactive Institution Information and Management System (IIIMS) based SAAS developer for educational institutions. It has two products which are web-based applications.",
-    image: "images/Projects/edstructure.png",
+    image: "images/Projects/edstructure.jpg",
     imageWebp: "images/Projects/edstructure.webp",
     tags: ["React", "React Query", "SCSS", "Bootstrap", "Rest API"],
     liveLink: "https://edstructure.com/",
@@ -106,4 +106,85 @@ export const TimeLineData = [
   { year: 2021, text: "Started learning frontend development" },
   { year: 2019, text: "Exploring programming world as a CS student" },
   { year: 2018, text: "Starting my golden university days" },
+];
+
+export const languageSkills = [
+  {
+    name: "JavaScript",
+    level: "90%",
+  },
+  {
+    name: "TypeScript",
+    level: "80%",
+  },
+  {
+    name: "ES6",
+    level: "70%",
+  },
+  {
+    name: "C#",
+    level: "60%",
+  },
+  {
+    name: "SCSS/SASS",
+    level: "80%",
+  },
+];
+
+export const frameworkSkills = [
+  {
+    name: "React",
+    level: "90%",
+  },
+  {
+    name: "Next.js",
+    level: "80%",
+  },
+  {
+    name: "Redux",
+    level: "70%",
+  },
+  {
+    name: "React Query",
+    level: "80%",
+  },
+  {
+    name: "Rest API",
+    level: "70%",
+  },
+  {
+    name: "React-Hook-Form",
+    level: "70%",
+  },
+  {
+    name: "Material-UI",
+    level: "80%",
+  },
+  {
+    name: "Ant Design",
+    level: "80%",
+  },
+  {
+    name: "TailwindCSS",
+    level: "80%",
+  },
+  {
+    name: "Bootstrap",
+    level: "70%",
+  },
+];
+
+export const toolsSkills = [
+  {
+    name: "Git",
+    level: "80%",
+  },
+  {
+    name: "Postman",
+    level: "70%",
+  },
+  {
+    name: "VS Code",
+    level: "90%",
+  },
 ];
