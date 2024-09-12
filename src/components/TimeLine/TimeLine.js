@@ -1,5 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 
+import { TimeLineData } from "../../constants/constants";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
 import {
   CarouselButton,
   CarouselButtonDot,
@@ -11,13 +18,6 @@ import {
   CarouselItemTitle,
   CarouselMobileScrollNode,
 } from "./TimeLineStyles";
-import {
-  Section,
-  SectionDivider,
-  SectionText,
-  SectionTitle,
-} from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -72,9 +72,9 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm Nafis Nihal - a passionate frontend developer. Working as a junior
-        frontend developer at Techsist. I'm currently focused on React and
-        Next.js. I love to learn new technologies of frontend development.
+        Working as a Software Engineer at Techsist. I'm currently focused on
+        React and Next.js. I love to learn new technologies of fullstack web
+        development.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

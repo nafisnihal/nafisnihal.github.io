@@ -36,7 +36,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" type="image/png" href={"/favicon.png"} />
-          <title>NAFIS NIHAL | Frontend Developer</title>
         </Head>
 
         <body>

@@ -20,7 +20,7 @@ const Hero = () => (
           web.
         </SectionText>
         <HeroButton
-          href="http://tinyurl.com/nafisnihalresume"
+          href="/Resume_Nafis_Nihal.pdf"
           className="link-to"
           title="Download Resume"
           target="_blank"
