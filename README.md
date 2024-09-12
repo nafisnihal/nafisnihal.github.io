@@ -1,16 +1,18 @@
 ### Hi, I'm **Nafis Nihal**
-##### another Junior Frontend Developer 
+
+##### another Software Engineer
+
 ##
 
 ###### :rocket: Let's get connected:
+
 <p align="left">
 <a href="https://linkedin.com/in/nafisnihal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nafisnihal" height="20" width="30" /></a>
 <a href="https://twitter.com/nafis_nihal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="nafis_nihal" height="20" width="30" /></a>
 
 ##### email: **nafisnihal12@gmail.com**
+
 ##
-
-
 
 #### :octocat: **Languages and Tools I use:**
 
@@ -21,7 +23,9 @@
 
 <!-- ![HTML5](https://img.shields.io/badge/html5-E44D26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-264DE4.svg?style=for-the-badge&logo=css3&logoColor=white) -->
+
 ![MUI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant_Design-50a9f5?style=for-the-badge&logo=ant-design&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-6F2CF2.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-A259FF.svg?style=for-the-badge&logo=figma&logoColor=white)
@@ -31,7 +35,6 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-DB5722?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Python](https://img.shields.io/badge/python-336D9D?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![C#](https://img.shields.io/badge/c%23-390090.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-
 
 ##
 
@@ -44,5 +47,4 @@
      <img src="https://github-readme-stats-nafisnihal.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=github_dark&locale=en&hide_border=true&username=nafisnihal&hide=issues,contribs&show=prs_merged_percentage&rank_icon=github" height="200" alt="stats graph"  />
     </td>
   </row>
-</table>   
-
+</table>
