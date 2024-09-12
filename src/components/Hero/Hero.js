@@ -16,7 +16,7 @@ const Hero = () => (
           I'm Nafis Nihal
         </SectionTitle>
         <SectionText style={{ paddingBottom: "30px" }}>
-          A frontend developer based in Dhaka who loves to build things for the
+          A software engineer based in Dhaka who loves to build things for the
           web.
         </SectionText>
         <HeroButton
