@@ -118,7 +118,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2023, text: "Starting my journey as a Junior Frontend Developer" },
+  { year: 2024, text: "Became Software Engineer with 1.5 years of experience" },
+  { year: 2023, text: "Starting my journey as a Junior Software Engineer" },
   { year: 2022, text: "Just completed my undergraduate degree" },
   { year: 2021, text: "Started learning frontend development" },
   { year: 2019, text: "Exploring programming world as a CS student" },
