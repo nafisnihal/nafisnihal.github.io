@@ -5,7 +5,7 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { HeroButton, LeftSection } from "./HeroStyles";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
   <>
@@ -19,14 +19,6 @@ const Hero = () => (
           A software engineer based in Dhaka who loves to build things for the
           web.
         </SectionText>
-        <HeroButton
-          href="/Resume_Nafis_Nihal.pdf"
-          className="link-to"
-          title="Download Resume"
-          target="_blank"
-        >
-          Resume
-        </HeroButton>
       </LeftSection>
     </Section>
   </>
