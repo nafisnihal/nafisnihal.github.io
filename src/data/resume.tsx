@@ -147,7 +147,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/umareg.mp4",
+      video: "https://portfolio-v2-2uu.pages.dev/umareg.mp4",
     },
     {
       title: "UXPro Lab",
@@ -171,7 +171,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/uxpro.mp4",
+      video: "https://portfolio-v2-2uu.pages.dev/uxpro.mp4",
     },
     {
       title: "Borgo",
@@ -189,7 +189,7 @@ export const DATA = {
       ],
       links: [],
       image: "",
-      video: "/borgo.mp4",
+      video: "https://portfolio-v2-2uu.pages.dev/borgo.mp4",
     },
     {
       title: "Britto",
@@ -201,7 +201,7 @@ export const DATA = {
       technologies: ["React", "React Query", "SCSS", "Bootstrap", "Rest API"],
       links: [],
       image: "",
-      video: "britto.mp4",
+      video: "https://portfolio-v2-2uu.pages.dev/britto.mp4",
     },
   ],
 } as const;
